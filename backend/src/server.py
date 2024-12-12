@@ -10,6 +10,7 @@ from pydantic import BaseModel
 import uvicorn
 
 from dal import ToDoDAL, ListSummary, ToDoList
+from openai import ChatRequest
 
 COLLECTION_NAME = "todo_lists"
 MONGODB_URI = os.environ["MONGODB_URI"]

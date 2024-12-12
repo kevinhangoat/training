@@ -17,7 +17,7 @@ function ListToDoLists({
       <div className="ListToDoLists">
         <div className="box">
         <label>
-          New To-Do List:&nbsp;
+          New Training Session:&nbsp;
           <input id={labelRef} type="text" />
         </label>
         <button
@@ -34,10 +34,10 @@ function ListToDoLists({
   }
   return (
     <div className="ListToDoLists">
-      <h1>All To-Do Lists</h1>
+      <h1>Create Training</h1>
       <div className="box">
         <label>
-          New To-Do List:&nbsp;
+          New Training Session:&nbsp;
           <input id={labelRef} type="text" />
         </label>
         <button

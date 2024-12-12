@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 import ListToDoLists from "./ListTodoLists";
 import ToDoList from "./ToDoList";
+import Chat from "./Chat";
 
 function App() {
   const [listSummaries, setListSummaries] = useState(null);
@@ -62,7 +63,7 @@ function App() {
   } else {
     return (
       <div className="App">
-        <ToDoList listId={selectedItem} handleBackButton={backToList} />
+        <Chat />
       </div>
     );
   }
